@@ -1,0 +1,14 @@
+Go to GraphOne Package :
+Storing a Graph : (i). Adjacency List, (ii).Adjacency Matrix ,(iii). Edge List, (iv).2D Matrix(Implicit Graph)
+
+Adjacency List = List of Lists
+        0 --> [1]
+        1 --> [0,2,3]           We can Store Adjacency List as 1.ArrayList<ArrayList> 2.Array<ArrayList>
+        2 --> [1,3]                                            3.HashMap<Integer,Lists>
+        3 --> [1,2]
+
+
+       Go to GraphTwo Package :
+       Cycles in Graph :
+            Undirected Graph : --> 1.DFS 2.BFS 3.DSU(DisJoint Set Union)
+            Directed   Graph : --> 1.DFS 2.BFS 3.Topological Sort(Kahn's Algorithm)
